@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.archivenews {
+  border: 1px solid #EDECEA;
+}
+h1 {
+  margin: 0;
+  padding: 10px 0 8px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  background-color: #F5F4F1;
+}
+.months {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.months li {
+  display: block;
+  border-bottom: 1px solid #EEEEEE;
+}
+.months li:hover, .months li a:hover {
+  background-color: #71387C;
+  text-decoration: none;
+  color: #FDFFF5;
+  width: 100%;
+  height: 100%;
+}
+.months li a {
+  padding: 7px 0px 3px 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
